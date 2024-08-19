@@ -1,0 +1,48 @@
+body {
+    color: black;
+    background: black;
+    margin: 0px;
+    font-family: sans-serif; /* Adicione uma família de fontes padrão */
+}
+
+header {
+    border-bottom: solid 2px rgb(25, 226, 166);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(2, 2, 46);
+}
+
+.chamada {
+    background: white;
+    padding-bottom: 80px;
+    display: flex; 
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
